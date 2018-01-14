@@ -5,10 +5,10 @@ def get_first_name_of_season_winner(data, season)
       winner_hash = el
     end
   end
-  
-  
+
+
   winner_hash[:name].split.first
-  
+
 end
 
 def get_contestant_name(data, occupation)
