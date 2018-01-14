@@ -7,7 +7,7 @@ def get_first_name_of_season_winner(data, season)
   end
 
 
-  winner_hash[:name]
+  winner_hash
 
 end
 
