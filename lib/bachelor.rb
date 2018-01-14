@@ -51,5 +51,13 @@ def get_occupation(data, hometown)
 end
 
 def get_average_age_for_season(data, season)
-  # code here
+  ages = []
+  data[season].each do |el|
+    if el.keys.include?("age")
+      ages << el["age"]
+    end
+  end
+
+
+  ages
 end
