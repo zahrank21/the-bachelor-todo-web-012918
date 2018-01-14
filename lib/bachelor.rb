@@ -20,7 +20,7 @@ def get_contestant_name(data, occupation)
       if cont_hash.values.include?(occupation)
         contestant_hash = cont_hash
       end
-    end  
+    end
   end
   contestant_hash[:name]
 end
