@@ -59,5 +59,6 @@ def get_average_age_for_season(data, season)
   end
 
 
-  ages
+  total = ages.length
+  ages.map{|el| el.to_i}.reduce(:+) / total
 end
