@@ -61,8 +61,8 @@ def get_average_age_for_season(data, season)
 
   total = ages.length
   if total.length.even?
-    ages.map{|el| el.to_i}.reduce(:+) / total
-  else
     ages.map{|el| el.to_i}.reduce(:+) / total + 1
+  else
+    ages.map{|el| el.to_i}.reduce(:+) / total 
   end
 end
