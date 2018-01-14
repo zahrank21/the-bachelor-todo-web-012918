@@ -19,8 +19,7 @@ def get_contestant_name(data, occupation)
         contestant_hash = cont
       end
     end
-    end
-  end 
+  end
   contestant_hash["occupation"]
 end
 
